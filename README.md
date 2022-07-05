@@ -24,7 +24,7 @@ npm uninstall -g truffle
 # Install
 npm install -g truffle
 # Specify a particular version
-npm install -g truffle@5.0.2
+npm install -g truffle@5.5.20
 # Verify the version
 truffle version
 ```
@@ -40,8 +40,8 @@ truffle version
 ```bash
 cd app
 # install packages
-npm install --save  openzeppelin-solidity@2.3
-npm install --save  truffle-hdwallet-provider@1.0.17
+npm install --save @openzeppelin/contracts@4.7.0
+npm install --save  @truffle/hdwallet-provider@2.0.10
 npm install webpack-dev-server -g
 npm install web3
 ```
