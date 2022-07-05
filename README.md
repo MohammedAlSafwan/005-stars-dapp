@@ -147,4 +147,4 @@ Do not use the [Old depreacted zipped starter code](https://s3.amazonaws.com/vid
 ### Your ERC-721 Token Symbol
 - SCP
 ### Your “Token Address” on the Rinkeby Network
-0x2D4f9F437BbA81577c7A25E564B570eEe2342450
+0x584e2bAec204B3b76f99cc0BB2b3B8Eb9Ddc5D24
