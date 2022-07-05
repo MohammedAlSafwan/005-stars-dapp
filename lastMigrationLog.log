@@ -1,0 +1,111 @@
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'rinkeby-fork'
+> Network id:      4
+> Block gas limit: 29970705 (0x1c95111)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > block number:        10968232
+   > block timestamp:     1656980541
+   > account:             0x349f870D3A60f7EE80Ba460e63352739573E06B6
+   > balance:             0.49725912
+   > gas used:            274088 (0x42ea8)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00274088 ETH
+
+   -------------------------------------
+   > Total cost:          0.00274088 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'StarNotary'
+   ----------------------
+   > block number:        10968234
+   > block timestamp:     1656980542
+   > account:             0x349f870D3A60f7EE80Ba460e63352739573E06B6
+   > balance:             0.46812442
+   > gas used:            2867535 (0x2bc14f)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02867535 ETH
+
+   -------------------------------------
+   > Total cost:          0.02867535 ETH
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.03141623 ETH
+
+
+
+
+Starting migrations...
+======================
+> Network name:    'rinkeby'
+> Network id:      4
+> Block gas limit: 29999972 (0x1c9c364)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x664ba1a4ee3a255985d1cb316772d40331dbbf6763e831a5e725065bf59ae472
+   > Blocks: 0            Seconds: 4
+   > contract address:    0x940b43c3Af484AB7F5ADe3Ce35D03268463C4241
+   > block number:        10968236
+   > block timestamp:     1656980551
+   > account:             0x349f870D3A60f7EE80Ba460e63352739573E06B6
+   > balance:             0.49725912
+   > gas used:            274088 (0x42ea8)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00274088 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00274088 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'StarNotary'
+   ----------------------
+   > transaction hash:    0x58fd41123fb07f7ce08a122e9ca792018bcd703c265f50d60fec44f5ea7b5151
+   > Blocks: 0            Seconds: 12
+   > contract address:    0x2D4f9F437BbA81577c7A25E564B570eEe2342450
+   > block number:        10968238
+   > block timestamp:     1656980582
+   > account:             0x349f870D3A60f7EE80Ba460e63352739573E06B6
+   > balance:             0.46812442
+   > gas used:            2867535 (0x2bc14f)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02867535 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.02867535 ETH
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.03141623 ETH
